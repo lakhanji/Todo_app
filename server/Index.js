@@ -21,6 +21,13 @@ mongoose.connect(process.env.MONGODB_URI)
 app.use("/api/todos", todoRoutes);
 app.use("/api/auth", authRoutes);
 
+app.get('/',(req,res)=>{
+    res.send({
+        activeStatus:true,
+        error:false,
+    })
+})
+
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });
