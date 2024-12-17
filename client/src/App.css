@@ -1,0 +1,52 @@
+/* App.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #343a40;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .header-nav {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .header-nav li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .auth-links {
+    margin-top: 10px;
+  }
+  
+  .auth-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #007bff;
+    border-radius: 5px;
+  }
+  
+  .auth-link:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .header-nav li {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  

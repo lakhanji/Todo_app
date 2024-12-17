@@ -1,0 +1,107 @@
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #abb8d2;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.task-completed {
+  background-color: #53875e;
+}
+
+.task-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.task-description {
+  color: #718096;
+  font-size: 0.875rem;
+}
+
+.task-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.task-toggle-button,
+.task-edit-button,
+.task-delete-button {
+  padding: 8px 16px;
+  font-size: 0.875rem;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.completed-button {
+  background-color: #288b56;
+  color: #c2aaaa;
+}
+
+.completed-button:hover {
+  background-color: #22754b;
+}
+
+.incomplete-button {
+  background-color: #e2e8f0;
+  color: #1a202c;
+}
+
+.incomplete-button:hover {
+  background-color: #799cc2;
+}
+
+.task-edit-button {
+  background-color: #ecc94b;
+  color: #ffffff;
+}
+
+.task-edit-button:hover {
+  background-color: #b57f12;
+}
+
+.task-delete-button {
+  background-color: #e53e3e;
+  color: #ffffff;
+}
+
+.task-delete-button:hover {
+  background-color: #ac1c1c;
+}
+
+.task-toggle-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.incomplete-button {
+  background-color: #30a628;
+  color: white;
+}
+
+.completed-button {
+  background-color: #2520ae;
+  color: white;
+}
+
+.task-title.line-through {
+  text-decoration: line-through;
+}
+
+.task-actions button {
+  margin-left: 8px;
+}
