@@ -120,7 +120,7 @@ Task Organization: Filter tasks based on their status (e.g., completed or pendin
 To run To-Do-List locally, follow these steps:
 
 1. Clone the repository:
-    bash
+    ```bash
     git clone git@github.com:lakhanji/to-do-w3villa.git
 
 2. Navigate to the project directory:
@@ -128,7 +128,7 @@ To run To-Do-List locally, follow these steps:
     cd to-do-w3villa
 
 3. Install dependencies for the frontend and backend:
-    bash
+    ```bash
     cd client
     npm install
 
@@ -136,7 +136,7 @@ To run To-Do-List locally, follow these steps:
     npm install
 
 4. Start the frontend server:
-    bash
+    ```bash
     npm run dev
 
 5. Start the backend server:
