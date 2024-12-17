@@ -121,11 +121,11 @@ To run To-Do-List locally, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone git@github.com:lakhanji/to-do-w3villa.git
+    git@github.com:lakhanji/todo_app.git
 
 2. Navigate to the project directory:
-    bash
-    cd to-do-w3villa
+    ```bash
+    cd to todo_app
 
 3. Install dependencies for the frontend and backend:
     ```bash
